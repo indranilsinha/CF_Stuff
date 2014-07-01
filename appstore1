@@ -1,0 +1,71 @@
+store:
+  title: Hello World Apps
+  contact: Sample App Store
+  icon: http://upload.wikimedia.org/wikipedia/commons/1/13/Metallurgy_stub_icon.svg&r=x&s=32
+
+apps:
+- name: Hello Clojure
+  id: helloworld-clojure
+  desc: Helloworld app for Clojure
+  framework: java
+  runtime: clojure
+  src: https://github.com/bacongobbler/helloworld-clojure.git
+  info: https://github.com/bacongobbler/helloworld-clojure.git#readme
+  icon: http://get.stackato.com/store/icon/clojure.png
+  commit: stackato
+  mem: 32
+
+- name: Hello Django
+  id: helloworld-django
+  desc: Helloworld app for Django
+  framework: django
+  runtime: python
+  src: https://github.com/bacongobbler/helloworld-django.git
+  info: https://github.com/bacongobbler/helloworld-django.git#readme
+  icon: http://get.stackato.com/store/icon/django.png
+  commit: stackato
+  mem: 32
+
+- name: Hello Go
+  id: helloworld-go
+  desc: Helloworld app for Golang
+  framework: go
+  runtime: go
+  src: https://github.com/bacongobbler/helloworld-go.git
+  info: https://github.com/bacongobbler/helloworld-go.git#readme
+  icon: http://get.stackato.com/store/icon/go.png
+  commit: stackato
+  mem: 32
+
+- name: Hello Jekyll
+  id: helloworld-jekyll
+  desc: An example Jekyll blog site deployed with Stackato
+  framework: jekyll
+  runtime: ruby
+  src: https://github.com/bacongobbler/helloworld-jekyll.git
+  info: https://github.com/bacongobbler/helloworld-jekyll.git#readme
+  icon: http://jekyllrb.com/img/logo-2x.png
+  commit: stackato
+  mem: 32
+
+- name: Hello Sinatra
+  id: helloworld-sinatra
+  desc: Helloworld app for Sinatra
+  framework: sinatra
+  runtime: ruby
+  src: https://github.com/bacongobbler/helloworld-sinatra.git
+  info: https://github.com/bacongobbler/helloworld-sinatra.git#readme
+  icon: http://www.sinatrarb.com/images/logo.png
+  commit: stackato
+  mem: 32
+
+- name: Hello Tornado
+  id: helloworld-tornado
+  desc: Helloworld app for the Tornado framework
+  framework: tornado
+  runtime: python
+  src: https://github.com/bacongobbler/helloworld-tornado.git
+  info: https://github.com/bacongobbler/helloworld-tornado.git#readme
+  icon: http://get.stackato.com/store/icon/python.png
+  commit: stackato
+  mem: 32
